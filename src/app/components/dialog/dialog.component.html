@@ -1,0 +1,13 @@
+<div class="kasko_dialog_wrapper">
+  <div class="dialog">
+    <div class="message_wrap">
+      <kasko-message
+        *ngFor="let msg of messages"
+        [data]="msg"
+      ></kasko-message>
+    </div>
+    <div class="buttons_wrap">
+      <kasko-btn *ngFor="let btn of buttons" [data]="btn"></kasko-btn>
+    </div>
+  </div>
+</div>

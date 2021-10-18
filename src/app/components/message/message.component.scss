@@ -1,0 +1,13 @@
+.message {
+  // height: 50px;
+  width: 90%;
+  background-color: royalblue;
+  margin-bottom: 10px;
+  border-radius: 18px;
+  padding: 10px;
+  text-align: left;
+
+  &.right {
+    margin-left: auto;
+  }
+}
